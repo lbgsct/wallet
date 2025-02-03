@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS wallets (
+    wallet_id VARCHAR(50) PRIMARY KEY,
+    balance NUMERIC(12, 2) NOT NULL DEFAULT 0
+);
